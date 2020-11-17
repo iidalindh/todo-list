@@ -1,6 +1,6 @@
 #container {
-  background-color: #ee8c68;
-  background-image: linear-gradient(315deg, #ee8c68 0%, #eb6b9d 74%);
+  background-color: #ff0000;
+  background-image: linear-gradient(315deg, #ff0000 0%, #ffed00 74%);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 
 h1 {
   font-size: 22px;
-  color: #ffff;
+  color: black;
 }
 
 #toDoForm > input {
