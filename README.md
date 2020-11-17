@@ -4,9 +4,19 @@
 
 _This is my first Javascript-project. This is a school-project for the Javascript Basic course on Medieinstitutet in Stockholm, Sweden._
 
+## Installation
+
+---
+
+1. Run 'git clone https://github.com/iidalindh/todo-list.git' in your terminal
+
+2. Start 'index.html'
+
+---
+
 ## Codestyle
 
-Variables is written with camelCase and classes with PascalCase.
+**Variables** is written with camelCase and **Classes** with PascalCase.
 
 ### camelCase:
 
