@@ -1,14 +1,18 @@
 # Todo-list
 
-This is my first Javascript-project. This is a school-project for Javascript Basic course.
+---
 
-codestyle: Variables is written with camelCase and classes with PascalCase.
+_This is my first Javascript-project. This is a school-project for the Javascript Basic course on Medieinstitutet in Stockholm, Sweden._
 
-## camelCase:
+## Codestyle
+
+Variables is written with camelCase and classes with PascalCase.
+
+### camelCase:
 
 let currentTodoItem = toDoList[i];
 
-## Pascal Case:
+### Pascal Case:
 
 class ToDoValues {
 constructor(\_name, \_checked, \_createDate) {
