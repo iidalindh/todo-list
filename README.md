@@ -16,6 +16,8 @@ _This is my first Javascript-project. This is a school-project for the Javascrip
 
 ## Codestyle
 
+---
+
 **Variables** is written with camelCase and **Classes** with PascalCase.
 
 ### camelCase:

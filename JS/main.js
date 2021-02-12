@@ -15,7 +15,6 @@ let newTodo3 = new ToDoValues("Diska", false, date.toLocaleString());
 toDoList.push(newTodo);
 toDoList.push(newTodo2);
 toDoList.push(newTodo3);
-
 let listContainer = document.createElement("div");
 listContainer.className = "listContainer";
 
@@ -33,6 +32,7 @@ function printList() {
     let liElement = document.createElement("li");
     liElement.className = "liElement";
     liElement.innerHTML = currentTodoItem.name;
+
     let checkButton = document.createElement("input");
     let styling = liElement;
 
@@ -66,20 +66,20 @@ function printList() {
     removeButton.setAttribute("type", "button");
     removeButton.innerHTML = '<i class="far fa-trash-alt"></i>';
 
-    let liElement2 = document.createElement("li");
-    let liElement3 = document.createElement("li");
-    let liElement4 = document.createElement("li");
+    let checkButtonContainer = document.createElement("li");
+    let removeButtonContainer = document.createElement("li");
+    let dateContainer = document.createElement("li");
 
-    liElement2.appendChild(checkButton);
-    liElement3.appendChild(removeButton);
-    liElement4.id = "date";
-    liElement4.innerHTML = currentTodoItem.createDate;
+    checkButtonContainer.appendChild(checkButton);
+    removeButtonContainer.appendChild(removeButton);
+    dateContainer.id = "date";
+    dateContainer.innerHTML = currentTodoItem.createDate;
 
     listContainer.appendChild(ulElement);
     ulElement.appendChild(liElement);
-    ulElement.appendChild(liElement2);
-    ulElement.appendChild(liElement3);
-    ulElement.appendChild(liElement4);
+    ulElement.appendChild(checkButtonContainer);
+    ulElement.appendChild(removeButtonContainer);
+    ulElement.appendChild(dateContainer);
   }
 }
 
